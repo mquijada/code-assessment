@@ -18,14 +18,11 @@ print(data.dtypes)
 
 #Save data to csv
 data.to_csv('orig_music_data.csv', index=False)
-#Save original DataFrame to Github
 
 # Top 10 most dance-worthy songs 
 trackGroup = data[["Track", "Artist", "Danceability", "Year"]]
 top10track = trackGroup.sort_values('Danceability', ascending = False).head(10)
 print(top10track)
-#Save top10track DF to Github
-
 
 #What is the correlation between liveness & dancability?
 compDanceLive = data[["Danceability", "Liveness"]]
@@ -35,5 +32,3 @@ plt.show()
 
 #Scheduled refresh every week 
 schedule.every().monday.do(lambda x: api.dataset_download_files('thebumpkin/10400-classic-hits-10-genres-1923-to-2023', path='./data', unzip=True))
-
-print("hello world")
