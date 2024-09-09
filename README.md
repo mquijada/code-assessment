@@ -8,4 +8,4 @@ To activate the virtual environment in Windows PowerShell type <b>.venv\Scripts\
 <h3>Run the Python Script </h3>
 In the command line type <b>python code_assessment_sept2024.py</b>. Two plots will appear :) 
 <h3>Deactivate the Virtual Environment</h3>
-Type <b>deactivate</b> in the PowerShell. 
+Type <b>deactivate</b> in PowerShell. 
