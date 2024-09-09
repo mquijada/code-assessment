@@ -4,7 +4,7 @@
 <h3>Load the Kaggle Token </h3>
 Upload the Kaggle token file sent to you via email to the main directory.
 <h3> Create the Virtual Environment</h3>
-In Windows PowerShell create a virtual environment by typing <b>python -m venv .venv</b>
+In Windows PowerShell create a virtual environment by typing <b>python -m venv .venv</b>. Make sure you are in the code-assessment directory. 
 <h3>Activate the Virtual Environment</h3>
 To activate the virtual environment in Windows PowerShell type <b>.venv\Scripts\activate</b> in the main directory. You will need to use the requirements.txt file to install the packages.
 <h3>Install Pacakges</h3>
